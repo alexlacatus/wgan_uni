@@ -1,0 +1,22 @@
+
+    =======================================================
+    | RAPORT FINAL DE EVALUARE A CALITĂȚII DATELOR GAN |
+    =======================================================
+
+    Obiectiv: A demonstra că setul sintetic (antrenat) obține o performanță similară
+              cu setul real (antrenat) atunci când testează pe date reale.
+
+    Metodă: RandomForestRegressor (100 estimatori)
+    Metrică Cheie: RMSE (Root Mean Squared Error)
+
+    -------------------------------------------------------
+    | Indicatori de Succes:
+    | RMSE_SINTETIC ar trebui să fie apropiat de RMSE_REAL.
+    -------------------------------------------------------
+
+           Dataset      RMSE  R2_Score
+     REAL DATA  0.561775  0.998055
+SYNTHETIC DATA 15.949141 -0.567792
+
+    =======================================================
+    
